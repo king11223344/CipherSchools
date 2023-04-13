@@ -1,0 +1,47 @@
+.about-me-container {
+  padding: 10px;
+  margin: 30px 0;
+  /* margin-right:10%; */
+  border-radius: 10px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.header {
+  outline: none;
+  border: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 3%;
+  /* margin-left: 0px; */
+}
+
+.edit-button {
+  border: none;
+  background-color: #f3912e;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 30px;
+  cursor: pointer;
+  font-size: 14px;
+  /* margin-left:2%; */
+}
+
+.text-area {
+  width: 100%;
+  height: 100px;
+  margin-left:5%;
+  /* margin-right:30%; */
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
