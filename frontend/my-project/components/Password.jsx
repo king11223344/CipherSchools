@@ -18,7 +18,7 @@ const PasswordSecuritySection = ({ textAreaColor, userInfo }) => {
         setPasswordError(true);
       } else {
         axios
-          .post(`${process.env.REACT_PUBLIC_BACKEND_URL}update/password`, {
+          .post(`https://backend2-49vb.onrender.com/update/password`, {
             password: password,
             email: userInfo.email,
           })

@@ -14,7 +14,7 @@ function AboutMe({ textAreraColor, userInfo }) {
 
     if (editButton.innerHTML === "Save") {
       axios
-        .post(`${process.env.REACT_PUBLIC_BACKEND_URL}update/aboutme`, {
+        .post(`https://backend2-49vb.onrender.com/update/aboutme`, {
           aboutMe: textArea.innerHTML,
           email: userInfo.email,
         })

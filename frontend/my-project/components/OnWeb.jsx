@@ -47,7 +47,7 @@ function OnTheWeb({ textAreaColor,userInfo }) {
     }
     if (editButton.innerHTML === "Save") {
       axios
-        .post(`${process.env.REACT_PUBLIC_BACKEND_URL}update/weblinks`, {
+        .post(`https://backend2-49vb.onrender.com/update/weblinks`, {
           webLinks: fieldsValue,
           email: userInfo.email,
         })
