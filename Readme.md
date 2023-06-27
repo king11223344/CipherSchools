@@ -1,4 +1,5 @@
 # CiphersSchools Website
+![Screenshot (21)](https://github.com/king11223344/CipherSchools/assets/51441410/0650c120-b991-4d00-8d42-238c4640ca2d)
 
 Welcome to the CiphersSchools website! This website is a clone of the front page of the original CiphersSchools website, with all functions working properly. It is built using ReactJS.
 
